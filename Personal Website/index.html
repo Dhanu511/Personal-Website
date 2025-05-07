@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dhananjaya | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body class="dark">
+    <header class="navbar">
+      <a href="#hero" class="logo">dhananjaya</a>
+      <nav>
+        <div id="hamburger">&#9776;</div>
+        <ul id="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero" id="hero">
+      <h1 class="fade-in">Dhananjaya</h1>
+      <p class="tagline">Creating Tomorrow, Today.</p>
+      <a href="#projects" class="cta-button">View My Work</a>
+    </section>
+
+    <section id="about" class="section fade-in">
+      <h2>About Me</h2>
+      <p>
+        I’m a futuristic-minded developer passionate about clean design, new
+        tech, and impactful digital experiences.
+      </p>
+    </section>
+
+    <section id="projects" class="section fade-in">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">Project 1</div>
+        <div class="project-card">Project 2</div>
+        <div class="project-card">Project 3</div>
+      </div>
+    </section>
+
+    <section id="resume" class="section fade-in">
+      <h2>Resume</h2>
+      <a href="resume.pdf" class="download-btn" target="_blank"
+        >Download Resume</a
+      >
+    </section>
+
+    <section id="contact" class="section fade-in">
+      <h2>Contact</h2>
+      <p>Feel free to connect with me on social media or send an email.</p>
+
+      <form action="https://formspree.io/f/yourFormID" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="_replyto" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+
+      <div class="social-icons">
+        <a href="https://www.behance.net/dhananjaya511" target="_blank"
+          ><i class="fab fa-behance"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/dhananjaya-gowda-a011b3206/"
+          target="_blank"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <a href="https://dribbble.com/Dhanu_5" target="_blank"
+          ><i class="fab fa-dribbble"></i
+        ></a>
+      </div>
+    </section>
+
+    <footer>
+      <p>© <span id="year"></span> Dhananjaya. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
